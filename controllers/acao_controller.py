@@ -45,7 +45,7 @@ async def patch_acao(propriedades_atualizacao: PapelUpdate, acao_id: int, respon
     
     
     
-router.delete('/{papel_id}')
+@router.delete('/{papel_id}')
 async def delete_acao(acao_id: int, response: Response):
     try:
         acao = await Acao.objects.get(id=acao_id)
