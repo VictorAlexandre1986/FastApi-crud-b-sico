@@ -28,13 +28,13 @@ Depois instalar as dependencias:
 pip install -r requirements.txt
 ```
 
-## Screenshot
-
-<img src="imagem_2023-09-22_141205849.png">
-
 Para executar o servidor digite:
 ```
 uvicorn main:app
 ```
 Acesse o endereco que foi disponibilizado e digite /docs no final para acessar o swagger e testar os endpoints:
 http://127.0.0.1:8000/docs#/
+
+## Screenshot
+
+<img src="imagem_2023-09-22_141205849.png">
